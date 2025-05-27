@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>رؤية 2030</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const links = document.querySelectorAll("nav a");
+      links.forEach((link) => {
+        if (link.href === window.location.href) {
+          link.classList.add("bg-white", "text-green-700", "px-3", "py-1", "rounded");
+        }
+      });
+    });
+  </script>  
+
+  <header class="bg-green-700 text-white p-4 shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-4 space-x-reverse">
+        <img src="images/logo.png" alt="شعار المملكة" class="h-16 object-contain" />
+      </div>
+      <nav class="flex items-center space-x-4 space-x-reverse">
+        <a href="about.html" class="hover:underline">عن المملكة</a>
+        <a href="kings.html" class="hover:underline">الملوك</a>
+        <a href="vision.html" class="hover:underline font-bold">رؤية 2030</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="p-8 max-w-5xl mx-auto">
+  
+    <h2 class="text-3xl font-bold mb-6 text-green-700">رؤية المملكة العربية السعودية 2030</h2>
+  
+    <p class="mb-6 leading-relaxed">
+      تُعتبر رؤية 2030 خطة وطنية طموحة أطلقتها المملكة العربية السعودية بهدف تنويع مصادر الدخل الوطني وتقليل الاعتماد على النفط كمصدر رئيسي للدخل، وذلك استجابةً للتحديات الاقتصادية العالمية والتغيرات في أسواق الطاقة. أعلنت الرؤية رسميًا في أبريل 2016 بقيادة ولي العهد الأمير محمد بن سلمان، وتقوم على عدة محاور رئيسية تتضمن التنمية الاقتصادية، الاجتماعية، والثقافية.
+    </p>
+  
+    <p class="mb-6 leading-relaxed">
+      تستند الرؤية إلى تطوير قطاعات متعددة مثل الصناعة، السياحة، الترفيه، الثقافة، والتعليم، بالإضافة إلى تعزيز الاستثمار في الطاقة المتجددة والتقنية الحديثة. كما تهدف إلى خلق بيئة جاذبة للاستثمارات الأجنبية، ورفع كفاءة الخدمات الحكومية عبر التحول الرقمي، وتمكين الشباب والمرأة للمساهمة الفعّالة في بناء مستقبل المملكة.
+    </p>
+  
+    <div class="bg-gray-100 rounded-lg p-6 max-w-4xl mx-auto shadow-sm mb-8">
+      <p class="mb-4 text-gray-800 font-semibold text-lg">
+        من أبرز المشاريع والمبادرات التي تنبثق من رؤية 2030:
+      </p>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li><strong>مشروع نيوم:</strong> مدينة مستقبلية ذكية على الساحل الشمالي الغربي للمملكة، تعتمد على تقنيات متقدمة وتهدف لأن تكون مركزًا عالميًا للابتكار والاستدامة.</li>
+        <li><strong>القدية:</strong> منطقة ترفيه ورياضية وثقافية ضخمة تُسهم في تنويع مصادر الدخل وتوفير فرص عمل.</li>
+        <li><strong>البحر الأحمر:</strong> مشروع سياحي فاخر يستهدف تطوير السياحة البيئية والترفيهية على السواحل الغربية.</li>
+        <li><strong>برنامج تطوير الصناعات المحلية:</strong> دعم الإنتاج الوطني وزيادة القيمة المضافة من خلال تنويع القطاعات الصناعية.</li>
+      </ul>
+    </div>
+  
+    <p class="mb-6 leading-relaxed">
+      تنعكس أهداف الرؤية على المجتمع السعودي من خلال تحسين جودة الحياة، رفع مستوى الخدمات الصحية والتعليمية، وتشجيع الابتكار والبحث العلمي. كما تسعى إلى تحقيق التنمية المستدامة وحماية البيئة، من خلال الاعتماد على مصادر طاقة نظيفة وتنفيذ مشاريع الاستدامة البيئية.
+    </p>
+  
+    <p class="mb-6 leading-relaxed">
+      في المجمل، تمثل رؤية 2030 خارطة طريق شاملة لمستقبل المملكة، تجمع بين الطموح الاقتصادي والاجتماعي مع الحفاظ على القيم الثقافية والدينية، بهدف بناء اقتصاد متنوع وقوي يواكب تحديات العصر ويحقق رفاهية أبنائها.
+    </p>
+  </section>
+
+  <footer class="bg-green-700 text-white text-center p-4 mt-8">
+    &copy; 2025 المملكة العربية السعودية - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>عن المملكة</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const links = document.querySelectorAll("nav a");
+      links.forEach((link) => {
+        if (link.href === window.location.href) {
+          link.classList.add("bg-white", "text-green-700", "px-3", "py-1", "rounded");
+        }
+      });
+    });
+  </script>   
+<header class="bg-green-700 text-white p-4 shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-4 space-x-reverse">
+        <img src="images/logo.png" alt="شعار المملكة" class="h-16 object-contain" />
+      </div>
+      <nav class="flex items-center space-x-4 space-x-reverse">
+        <a href="about.html" class="hover:underline font-bold">عن المملكة</a>
+        <a href="kings.html" class="hover:underline">الملوك</a>
+        <a href="vision.html" class="hover:underline">رؤية 2030</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="p-8 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-green-700">ملوك المملكة العربية السعودية</h2>
+
+    <div class="space-y-10">
+
+        <div class="grid md:grid-cols-3 gap-8 mb-12 items-center bg-gray-50 p-4 rounded-lg shadow-sm">
+          <img src="images/1.png" alt="الملك عبدالعزيز" class="rounded-xl w-full h-auto shadow-md" />
+          <div class="md:col-span-2">
+            <h3 class="text-2xl font-semibold mb-2">الملك عبدالعزيز بن عبدالرحمن آل سعود</h3>
+            <p class="text-sm text-gray-600 mb-2">مدة الحكم: 1932 – 1953</p>
+            <p>
+              هو مؤسس المملكة العربية السعودية، وقائد مسيرة توحيد البلاد بعد أن استعاد مدينة الرياض عام 1902. استمر في توحيد المناطق تحت راية الدولة السعودية الحديثة حتى أعلن في عام 1932 قيام المملكة العربية السعودية. في عهده، بدأت ملامح الدولة تظهر من خلال تأسيس الوزارات وبناء جيش وطني، كما تم اكتشاف النفط عام 1938، وهو الحدث الذي غيّر مسار الاقتصاد الوطني. عُرف بحكمته وحنكته السياسية، وكان حريصًا على العلاقات الإسلامية والعربية والدولية.
+            </p>
+          </div>
+        </div>
+      
+        <div class="grid md:grid-cols-3 gap-8 mb-12 items-center bg-gray-50 p-4 rounded-lg shadow-sm">
+          <img src="images/2.png" alt="الملك سعود" class="rounded-xl w-full h-auto shadow-md" />
+          <div class="md:col-span-2">
+            <h3 class="text-2xl font-semibold mb-2">الملك سعود بن عبدالعزيز آل سعود</h3>
+            <p class="text-sm text-gray-600 mb-2">مدة الحكم: 1953 – 1964</p>
+            <p>
+              هو الابن الأكبر للملك عبدالعزيز، وكان أول ملك يتسلم الحكم بعد المؤسس. ركز في عهده على تحسين الخدمات الصحية والتعليمية، فأسّس أول جامعة في المملكة وهي جامعة الملك سعود عام 1957، كما اهتم بالبنية التحتية وتوسعة الحرم المكي. شهدت المملكة في عهده تطورات عمرانية كبيرة، لكن التحديات الاقتصادية والإدارية أدت إلى تنحيه عن الحكم بقرار من الأسرة المالكة.
+            </p>
+          </div>
+        </div>
+      
+        <div class="grid md:grid-cols-3 gap-8 mb-12 items-center bg-gray-50 p-4 rounded-lg shadow-sm">
+          <img src="images/3.png" alt="الملك فيصل" class="rounded-xl w-full h-auto shadow-md" />
+          <div class="md:col-span-2">
+            <h3 class="text-2xl font-semibold mb-2">الملك فيصل بن عبدالعزيز آل سعود</h3>
+            <p class="text-sm text-gray-600 mb-2">مدة الحكم: 1964 – 1975</p>
+            <p>
+              من أبرز ملوك المملكة وأكثرهم تأثيرًا على الصعيدين الداخلي والدولي. أطلق إصلاحات واسعة في نظام الدولة، واهتم بتحديث التعليم وإدخال التعليم العام للبنات. دعم القضية الفلسطينية بقوة، واشتهر بقراره الشجاع بقطع النفط عن الدول الداعمة لإسرائيل خلال حرب 1973. شهدت المملكة في عهده استقرارًا سياسيًا واقتصاديًا ونموًا في مكانتها الدولية. اغتيل في عام 1975 في حادث مأساوي.
+            </p>
+          </div>
+        </div>
+      
+        <div class="grid md:grid-cols-3 gap-8 mb-12 items-center bg-gray-50 p-4 rounded-lg shadow-sm">
+          <img src="images/4.png" alt="الملك خالد" class="rounded-xl w-full h-auto shadow-md" />
+          <div class="md:col-span-2">
+            <h3 class="text-2xl font-semibold mb-2">الملك خالد بن عبدالعزيز آل سعود</h3>
+            <p class="text-sm text-gray-600 mb-2">مدة الحكم: 1975 – 1982</p>
+            <p>
+              تميز عهده بالهدوء والاستقرار، واستفادت المملكة من الطفرة النفطية بشكل كبير، حيث تم توسيع البنية التحتية وتطوير قطاعات مثل الإسكان والصحة والتعليم. أُسّس خلال عهده مجلس التعاون الخليجي عام 1981 ليعزز التعاون بين دول الخليج. رغم أنه لم يكن يميل إلى الظهور الإعلامي، إلا أن سياسته الداخلية دعمت التنمية الشاملة في المملكة.
+            </p>
+          </div>
+        </div>
+      
+        <div class="grid md:grid-cols-3 gap-8 mb-12 items-center bg-gray-50 p-4 rounded-lg shadow-sm">
+          <img src="images/5.png" alt="الملك فهد" class="rounded-xl w-full h-auto shadow-md" />
+          <div class="md:col-span-2">
+            <h3 class="text-2xl font-semibold mb-2">الملك فهد بن عبدالعزيز آل سعود</h3>
+            <p class="text-sm text-gray-600 mb-2">مدة الحكم: 1982 – 2005</p>
+            <p>
+              أول من حمل لقب خادم الحرمين الشريفين، وقد شهدت المملكة في عهده نهضة شاملة في مجالات عديدة، شملت الطرق، التعليم، الصحة، والمرافق العامة. في عهده تم إصدار النظام الأساسي للحكم عام 1992 الذي ينظم السلطات والدستور في المملكة. شاركت المملكة في عهده في حرب الخليج الثانية لتحرير الكويت. كما شهدت توسعة كبيرة في الحرمين الشريفين، ما جعله من أكثر ملوك المملكة تأثيرًا في تاريخها الحديث.
+            </p>
+          </div>
+        </div>
+      
+        <div class="grid md:grid-cols-3 gap-8 mb-12 items-center bg-gray-50 p-4 rounded-lg shadow-sm">
+            <img src="images/6.png" alt="الملك عبدالله" class="rounded-xl w-full h-auto shadow-md" />
+            <div class="md:col-span-2">
+              <h3 class="text-2xl font-semibold mb-2">الملك عبدالله بن عبدالعزيز آل سعود</h3>
+              <p class="text-sm text-gray-600 mb-2">مدة الحكم: 2005 – 2015</p>
+              <p>
+                تميز عهده بالانفتاح والإصلاح، فقد أطلق العديد من المبادرات الوطنية لتطوير التعليم، منها برنامج الابتعاث الخارجي الذي مكّن آلاف الطلاب من الدراسة في الخارج. أنشأ جامعة الملك عبدالله للعلوم والتقنية (KAUST) لتكون مركزًا عالميًا للأبحاث. ركّز على تمكين المرأة وفتح مجالات جديدة لها، وشهدت المملكة توسعات كبيرة في مشروعات الإسكان والبنية التحتية. عُرف بتواضعه وقربه من المواطنين.              </p>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8 mb-12 items-center bg-gray-50 p-4 rounded-lg shadow-sm">
+            <img src="images/7.png" alt="الملك سلمان" class="rounded-xl w-full h-auto shadow-md" />
+            <div class="md:col-span-2">
+              <h3 class="text-2xl font-semibold mb-2">الملك سلمان بن عبدالعزيز آل سعود</h3>
+              <p class="text-sm text-gray-600 mb-2">مدة الحكم: 2015 – حتى الان</p>
+              <p>
+                يشهد عهد الملك سلمان مرحلة تحول تاريخي في المملكة، إذ تم إطلاق رؤية السعودية 2030 بقيادة ولي العهد الأمير محمد بن سلمان، والتي تهدف إلى تنويع الاقتصاد وتقليل الاعتماد على النفط. تم تنفيذ مشاريع عملاقة مثل مدينة نيوم، مشروع القدية، والبحر الأحمر، إلى جانب إصلاحات اجتماعية شملت تطوير الأنظمة والقوانين، تعزيز دور المرأة، وتوسيع قطاعات الترفيه والسياحة. كما اتسم عهده بسياسات خارجية فاعلة ومبادرات إنسانية عالمية.            </div>
+          </div>
+
+      </div>
+      
+    </section>
+
+  <footer class="bg-green-700 text-white text-center p-4 mt-8">
+    &copy; 2025 المملكة العربية السعودية - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* ملف styles.css */
+
+/* توحيد الخط */
+body, h1, h2, h3, p, a, nav, header, footer, section {
+  font-family: 'Tajawal', 'Cairo', 'Amiri', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+/* تحسين المظهر العام */
+h1, h2 {
+  font-weight: 800;
+}
+
+nav a {
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #d1fae5; /* لون أخضر فاتح عند التمرير */
+}
